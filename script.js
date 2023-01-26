@@ -6,7 +6,7 @@ function palindrome(str){
 	return aplphanumricOnly.join('') === alphanumricOnly.reverse().join('');
 
 }
-coonsole.log(palindrome("racecar"));
+console.log(palindrome("racecar"));
 module.exports = palindrome
 // // complete the given function
 
